@@ -9,7 +9,7 @@
 */
 'use strict';
 
-var header = require('../wetzel-header.js');
+var header = require('../header.js');
 console.log(header.display("Loren", "Wetzel", "Assignment 1.5"));
 
 /*
