@@ -1,0 +1,12 @@
+{
+  "name": "json-api",
+  "author": "Loren Wetzel",
+  "private": true,
+  "scripts": {
+    "start": "node wetzel-exercise-4.2.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  }
+}
