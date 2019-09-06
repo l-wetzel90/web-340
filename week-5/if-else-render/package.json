@@ -1,0 +1,12 @@
+{
+  "name": "if-else-render",
+  "author": "Loren Wetzel",
+  "private": true,
+  "scripts": {
+    "start": "node wetzel-exercise-5.2.js"
+  },
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
