@@ -1,0 +1,29 @@
+<% include header %>
+<% include navbar%>
+<div class="container">
+<h2 class="text-center"><%= title %></h2>
+<br><br>
+<div class="table-responsive">
+<table class="table table-striped table-hover">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Email</th>
+        <th scope="col">&nbsp;</th>
+      </tr>
+    </thead>
+    <tbody>
+<!-- for each employee in database -->
+      <tr>
+        <td scope="row">Emp first name</td>
+        <td>emp last name</td>
+        <td>emp email</td>
+        <td><button class="btn btn-primary btn-sm">Link to invididual view</button></td>
+      </tr>
+<!-- end for each -->
+    </tbody>
+  </table>
+</div>
+  <% include footer %>
+</div>

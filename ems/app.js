@@ -21,7 +21,25 @@ app.use(logger("short"));
 
 app.get("/", function (req, res) {
   res.render("index", {
-    title: "Home Page"
+    title: "E.M.S."
+  });
+});
+
+app.get("/list", function (req, res) {
+  res.render("list", {
+    title: "Employee Records"
+  });
+});
+
+app.get("/new", function (req, res) {
+  res.render("new", {
+    title: "New Entry"
+  });
+});
+
+app.get("/view", function (req, res) {
+  res.render("view", {
+    title: "Individual Employee Information"
   });
 });
 
