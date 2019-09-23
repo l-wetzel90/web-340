@@ -1,0 +1,12 @@
+{
+  "name": "tdd-example",
+  "author": "Loren Wetzel",
+  "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
