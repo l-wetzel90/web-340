@@ -1,17 +1,24 @@
 <% include header %>
 <% include navbar%>
-<div class="container">
+<div class="container" style="width: 50%;">
+  <br>
 
-<h2 class="text-center">Employee Management System</h2>
-<br><br>
-<p>Welcome to the new Employee Management System. We hope you find this system easy to use.</p>
-<br>
-<div class="list-group">
-  <a href="/list" class="list-group-item list-group-item-action">
-    Employee Records
-  </a>
-  <a href="/new" class="list-group-item list-group-item-action">Enter a new Employee</a>
-</div>
+  <h2>Employee Management System</h2>
+  <br>
+
+  <p>Welcome to the new Employee Management System. We hope you find this system easy to use.</p>
+  <br>
+
+  <div class="row">
+    <div class="col-4">
+      <div class="list-group">
+        <a href="/list" class="list-group-item list-group-item-action">
+          Employee Records
+        </a>
+        <a href="/new" class="list-group-item list-group-item-action">Enter a new Employee</a>
+      </div>
+    </div>
+  </div>
 
   <% include footer %>
 </div>
