@@ -17,7 +17,7 @@ var mongoose = require("mongoose");
 
 
 //mLab connection
-var mongoDB = "mongodb+srv://admin:admin@buwebdev-cluster-1-7jtao.mongodb.net/test?retryWrites=true&w=majority";
+var mongoDB = "mongodb+srv://admin:admin@buwebdev-cluster-1-7jtao.mongodb.net/ems?retryWrites=true&w=majority";
 mongoose.connect(mongoDB,{
   useMongoClient: true
 });
